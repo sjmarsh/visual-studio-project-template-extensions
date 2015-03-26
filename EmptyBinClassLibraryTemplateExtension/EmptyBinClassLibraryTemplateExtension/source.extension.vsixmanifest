@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="EmptyBinClassLibraryTemplateExtension.nib health funds limited.a427e53a-bf0e-4df6-8d31-4a079a647774" Version="1.0" Language="en-US" Publisher="sjmarsh31" />
+    <DisplayName>Empty Bin Class Library Project Template</DisplayName>
+    <Description xml:space="preserve">Adds a new project template to Visual Studio that allows you to create a new standard C# Class Library template with the Debug and Release folders removed from the Bin folder.</Description>
+    <Icon>C_sharp.PNG</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Empty Bin Class Library.zip" />
+  </Assets>
+</PackageManifest>
