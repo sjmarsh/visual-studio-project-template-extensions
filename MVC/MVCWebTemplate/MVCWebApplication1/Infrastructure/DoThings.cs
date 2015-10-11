@@ -1,4 +1,6 @@
-﻿namespace MVCWebApplication1.Infrastructure
+﻿using System;
+
+namespace MVCWebApplication1.Infrastructure
 {
     public interface IDoThings
     {
