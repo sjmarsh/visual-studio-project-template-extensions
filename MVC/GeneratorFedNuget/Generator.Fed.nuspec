@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Generator.Fed</id>
+    <title>Generator.Fed.Nuget</title>
+    <version>0.0.0</version>
+    <authors>Your name</authors>
+    <owners>Your name</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl>https://www.npmjs.com/package/generator-fed</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nuget Package to install generator-fed npm package into .Net solution</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+	<files>
+		<file src="*.ps1" target="." />
+		<file src="*.pp" target="." />
+	</files>
+</package>
