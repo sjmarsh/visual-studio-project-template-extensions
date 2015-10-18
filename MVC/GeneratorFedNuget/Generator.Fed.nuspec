@@ -6,14 +6,14 @@
     <version>0.0.0</version>
     <authors>Your name</authors>
     <owners>Your name</owners>
-    <licenseUrl></licenseUrl>
     <projectUrl>https://www.npmjs.com/package/generator-fed</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Nuget Package to install generator-fed npm package into .Net solution</description>
     <releaseNotes></releaseNotes>
   </metadata>
 	<files>
-		<file src="*.ps1" target="." />
-		<file src="*.pp" target="." />
+		<file src="tools\*.ps1" target="tools\." />
+		<file src="content\*.pp" target="content\." />
+		<file src="readme.txt" target="" />
 	</files>
 </package>
