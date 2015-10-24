@@ -13,7 +13,7 @@
   </metadata>
 	<files>
 		<file src="tools\*.ps1" target="tools\." />
-		<file src="content\*.pp" target="content\." />
+		<file src="content\**\*.*" target="content\." />
 		<file src="readme.txt" target="" />
 	</files>
 </package>
